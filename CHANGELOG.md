@@ -2,6 +2,11 @@
 
 All notable changes to `flysystem-onedrive` will be documented in this file
 
+## 1.0.6 - 2020-01-10
+
+- Fixing paths when `$usePath = false`
+- Fix bug with getting filesize throwing a warning
+
 ## 1.0.5 - 2019-09-11
 
 - Minor bugs fixed
