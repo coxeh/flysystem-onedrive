@@ -18,7 +18,7 @@ class OneDriveAdapter extends AbstractAdapter
 
     private $usePath;
 
-    public function __construct(Graph $graph, $prefix = 'root', $base = '/drive/', $usePath = true)
+    public function __construct(Graph $graph, $prefix = 'root', $base = '/drive/', $usePath = false)
     {
         $this->graph = $graph;
         $this->usePath = $usePath;
