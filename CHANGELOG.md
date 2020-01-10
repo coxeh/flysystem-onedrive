@@ -2,6 +2,10 @@
 
 All notable changes to `flysystem-onedrive` will be documented in this file
 
+## 1.0.8 - 2020-01-10
+
+- Fix bug returning array on `listContents` if failure
+
 ## 1.0.7 - 2020-01-10
 
 - Fixing paths when `$usePath = false`
